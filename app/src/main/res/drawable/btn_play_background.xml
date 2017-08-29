@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- item khi ấn nút -->
+    <item android:state_pressed="true" >
+        <!-- tạo shape khi không có drawable -->
+        <shape android:shape="rectangle" >
+
+            <solid android:color="@color/color_btn_play_pressed" />
+
+            <corners android:radius="10dp" />
+
+            <padding android:bottom="@dimen/activity_vertical_margin"
+                android:left="@dimen/activity_vertical_margin"
+                android:right="@dimen/activity_vertical_margin"
+                android:top="@dimen/activity_vertical_margin" />
+        </shape>
+    </item>
+
+    <!-- item default -->
+    <item >
+        <shape android:shape="rectangle" >
+
+            <solid android:color="@color/color_btn_play_default" />
+
+            <corners android:radius="10dp" />
+
+            <padding android:bottom="@dimen/activity_vertical_margin"
+                android:left="@dimen/activity_vertical_margin"
+                android:right="@dimen/activity_vertical_margin"
+                android:top="@dimen/activity_vertical_margin" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FindSameImage</string>
+    <string name="score">Scores</string>
+    <string name="play">Play Game</string>
+    <string name="default_score">0</string>
+    <string name="dialog_btn_go_home">Go Home</string>
+    <string name="dialog_btn_replay">Replay</string>
+    <string name="msg_winner">You won!\nYour scores : %d</string>
+</resources>
