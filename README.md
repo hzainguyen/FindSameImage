@@ -1,2 +1,3 @@
-# FindSameImage
-Trò chơi tìm hình giống nhau Android
+# Find Same Image
+
+Find two same image characters game for children.
